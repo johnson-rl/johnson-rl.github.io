@@ -6,21 +6,18 @@ _This is a work in progress that illustrates my growth as a web developer._
 1. html
 2. css
 3. Javascript
-..* data types
+ * data types
+ * functions
+ * objects and arrays
+ * DOM manipulation
 
+## What is on the site:
+Right now....nothing.  Actually, there might be a cat.  That cat is named Juniper.  Juniper knows slightly less about coding than Ryan does.
 
-
-## Usage
-TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
 ## History
-TODO: Write history
+11-29-16 - Begun working on site
+
+11-30-16 - Made first updates to readme, begun playing with site contents
 ## Credits
-TODO: Write credits
-## License
-TODO: Write license
+* Ryan Johnson
+* Juniper
