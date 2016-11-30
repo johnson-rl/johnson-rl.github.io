@@ -1,9 +1,15 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
-## Installation
-TODO: Describe the installation process
+
+# RYAN JOHNSON
+### **_A personal web page_**
+_This is a work in progress that illustrates my growth as a web developer._
+## Skills to date:
+1. html
+2. css
+3. Javascript
+..* data types
+
+
+
 ## Usage
 TODO: Write usage instructions
 ## Contributing
@@ -18,6 +24,3 @@ TODO: Write history
 TODO: Write credits
 ## License
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
