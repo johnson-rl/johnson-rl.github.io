@@ -1,1 +1,54 @@
 /* custom styles */
+.signature-image img {
+  width:75%;
+  height: 400px;
+}
+
+.signature-image {
+  width: 50%;
+  text-align: center;
+  float:left;
+}
+body {
+  background-color: #D1C6B2
+}
+
+h1, h3 {
+  text-align: center;
+  color: #0986B0;
+}
+
+#most-recent {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.navbar {
+  background-color: #7E5EAD;
+  /*text-decoration-color: white;*/
+}
+
+.navbarlist{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #0986B0
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}

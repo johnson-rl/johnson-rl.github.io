@@ -10,16 +10,39 @@
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+  <!-- <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css"> -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
-    <h1>RJ!</h1>
+<div id="page-wrapper">
+  <header>
+      <h1>Ryan Johnson is a web developer</h1>
+      <nav class="navbar">
+        <ul id = "navlist">
+          <li class="navbarlist"><a href="#">About Me</a></li>
+          <li class="navbarlist"><a href="#">My Work</a></li>
+          <li class="navbarlist"><a href="#">Fun Stuff</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="signature-image">
+    <img id='smartCat' src="assets/imgs/Junie-Correcting-Code" alt="Smart cat correcting my code">
+    <p>"No, idiot. Use brackets not braces."</p>
   </div>
+  <div id="most-recent">
+    <h3>Most Recent Accomplishment</h3>
+    <p id = 'recent'>I made a pyramid in javascript! Check it out here:</p>
+  </div>
+  <ul class="clear"> Contact Info
+    <li><a href="mailto:johnson.rl@gmail.com">Email</a></li>
+    <li>Linked In</li>
+    <li><a href="https://github.com/johnson-rl">Github</a></li>
+  </ul>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</div>
 </body>
 </html>
