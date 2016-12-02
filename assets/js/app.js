@@ -40,7 +40,7 @@ $(document).ready(function(){
           // console.log(x);
       }
       $("#most-recent").append(moreWork);
-      $("#contentPost2").delay(3000).fadeIn(500);
+      $("#contentPost2").delay(1000).fadeIn(500);
   })
 // $("#most-recent").on('click',printPyramid())
 
