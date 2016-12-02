@@ -15,34 +15,41 @@
   <!-- scripts -->
   <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
   <!-- favicon -->
+  <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
 <body>
+  <!--background pattern link http://graphicdesignjunction.com/wp-content/uploads/2014/05/003+background+pattern+designs.jpg -->
 <div id="page-wrapper">
   <header>
-      <h1>Ryan Johnson is a web developer</h1>
+      <h1>Ryan Johnson: Web Developer</h1>
       <nav class="navbar">
         <ul id = "navlist">
-          <li class="navbarlist"><a href="#">About Me</a></li>
-          <li class="navbarlist"><a href="#">My Work</a></li>
-          <li class="navbarlist"><a href="#">Fun Stuff</a></li>
+          <li class="navbarlist" id="aboutme"><a href="#">About Me</a></li>
+          <li class="navbarlist" id="myworks"><a href="#">My Work</a></li>
+          <li class="navbarlist"><a href="https://github.com/johnson-rl">Github</a></li>
         </ul>
       </nav>
   </header>
-  <div class="signature-image">
-    <img id='smartCat' src="assets/imgs/Junie-Correcting-Code" alt="Smart cat correcting my code">
-    <p>"No, idiot. Use brackets not braces."</p>
-  </div>
-  <div id="most-recent">
-    <h3>Most Recent Accomplishment</h3>
-    <p id = 'recent'>I made a pyramid in javascript! Check it out here:</p>
-  </div>
-  <ul class="clear"> Contact Info
-    <li><a href="mailto:johnson.rl@gmail.com">Email</a></li>
-    <li>Linked In</li>
-    <li><a href="https://github.com/johnson-rl">Github</a></li>
+  <section id='main-section'>
+    <div class="left-section-el" id="most-recent">
+      <div class="signature-image">
+        <img id='smartCat' src="assets/imgs/Junie-Correcting-Code" alt="Smart cat correcting my code">
+        <p>"No, idiot. Use brackets not braces."</p>
+      </div>
+    </div>
+    <div class="right-section-el">
+          <p></p>
+          <p class="special">I am learning to code in javascript.  My cat, Juniper, is pretty certain she's better at this than I am.</p>
+          <p></p>
+          <p class="special" id="contentPost">Often I worry that she's right.</p>
+    </div>
+  </section>
+  <ul class="clear">
+
   </ul>
-  <script type="text/javascript" src="assets/js/app.js"></script>
 </div>
 </body>
 </html>
